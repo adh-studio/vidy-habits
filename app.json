@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "Vidy",
+    "slug": "vidy-habits",
+    "version": "0.3.0",
+    "orientation": "portrait",
+    "scheme": "vidy",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0f1729"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "mg.adhstudio.vidy"
+    },
+    "android": {
+      "package": "mg.adhstudio.vidy",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0f1729"
+      }
+    },
+    "plugins": [
+      "expo-router",
+      "expo-sqlite",
+      [
+        "expo-notifications",
+        { "color": "#7c3aed" }
+      ],
+      [
+        "expo-font",
+        { "fonts": [] }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
